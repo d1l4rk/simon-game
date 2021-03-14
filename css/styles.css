@@ -1,0 +1,63 @@
+body{
+    background-color: #393232;
+}
+
+header h1 {
+    font-size: 5rem;
+    line-height: 2;
+    text-align: center;
+    color: #ffd880;
+}
+
+
+main{
+    display: flex;
+    flex-flow: wrap column;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    /* background-color: blue; */
+    width: auto;
+    height: auto;
+
+}
+
+.game__div{
+    align-self: center;
+    display: flex;
+    flex-flow: wrap row;
+    
+}
+.game__div2{
+    align-self: center;
+    display: flex;
+    flex-flow: wrap row;    
+
+} 
+.game__cuadrado{
+    width: 20rem;
+    height: 20rem;
+    border: 10px solid #000;
+    background-color: blueviolet;
+    border-radius: 4rem;
+    margin: 1rem;
+    outline: none;
+}
+.green{
+    background-color: green;
+}  
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.sombra{
+    opacity: 0.5;
+}
+
